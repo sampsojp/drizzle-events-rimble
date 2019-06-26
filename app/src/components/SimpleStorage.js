@@ -1,6 +1,7 @@
 import React from 'react'
 import { newContextComponents } from "drizzle-react-components";
 import { DrizzleContext } from "drizzle-react";
+import { ToastContainer } from 'react-toastify'
 
 import {
     Button,
@@ -25,6 +26,7 @@ export default () => (
 
             return (
                 <Box mb={20}>
+                    <ToastContainer />
                     <Card bg="#fff">
                         <Heading.h4>SimpleStorage Contract</Heading.h4>
                         <Text.p>
