@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Drizzle (using React 16.3+ Context Components) from the Truffle team, React-Toastify event notifctions, and Rimble UI from the Consensys Design team.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Drizzle (using React 16.3+ Context Components) from the Truffle team, React-Toastify event notifications, and Rimble UI from the Consensys Design team.
 
 See [Drizzle docs](https://www.trufflesuite.com/docs/drizzle/overview) for information about how to use Drizzle with your dapp.
 
