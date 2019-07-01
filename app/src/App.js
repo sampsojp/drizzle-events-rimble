@@ -3,15 +3,16 @@ import { Drizzle } from 'drizzle';
 import { DrizzleContext } from "drizzle-react";
 
 import drizzleOptions from "./drizzleOptions";
-import Container from "./Container";
 import store from './middleware'
 
-const drizzle = new Drizzle(drizzleOptions);
+import Container from "./Container";
+
+const drizzle = new Drizzle(drizzleOptions, store);
 
 class App extends Component {
   render() {
     return (
-      <DrizzleContext.Provider drizzle={drizzle} store={store}>
+      <DrizzleContext.Provider drizzle={drizzle}>
         <Container />
       </DrizzleContext.Provider>
     );

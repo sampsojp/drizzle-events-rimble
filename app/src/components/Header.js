@@ -1,5 +1,9 @@
-import React from 'react';
-import { Box, Card, Heading } from 'rimble-ui';
+import React from "react";
+import { 
+    Box, 
+    Card, 
+    Heading 
+} from "rimble-ui";
 
 import logo from "../logo.png";
 
@@ -14,7 +18,7 @@ const Header = () => (
                 Drizzle Examples
             </Heading.h1>
             <Heading.h4>
-                Examples of how to get started with Drizzle + Rimble UI design elements.
+                Example dapp features: Drizzle + Toastify Event Notifications + Rimble UI
             </Heading.h4>
         </Card>
     </Box>

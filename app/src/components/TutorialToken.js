@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { newContextComponents } from "drizzle-react-components";
 import { DrizzleContext } from "drizzle-react";
 
@@ -10,7 +10,7 @@ import {
     Heading,
     Input,
     Button
-} from 'rimble-ui'
+} from "rimble-ui";
 
 const { ContractData, ContractForm } = newContextComponents;
 
@@ -122,7 +122,7 @@ export default () => (
                                                         type={inputTypes[index]}
                                                         name={input.name}
                                                         value={state[input.name]}
-                                                        placeholder="" //how to populate placeholders in form with multiple fields?
+                                                        placeholder=""//how to populate placeholders in form with multiple fields?
                                                         onChange={handleInputChange}
                                                         mr={10}
                                                     />

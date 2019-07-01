@@ -1,16 +1,16 @@
-import React, { Component, } from 'react';
+import React, { Component, } from "react";
 
 import {
   Flex,
   Box,
   ThemeProvider
-} from 'rimble-ui';
+} from "rimble-ui";
 
-import Header from "./components/Header"
-import ActiveAccount from "./components/ActiveAccount"
-import SimpleStorage from "./components/SimpleStorage"
-import TutorialToken from './components/TutorialToken';
-import ComplexStorage from './components/ComplexStorage';
+import Header from "./components/Header";
+import ActiveAccount from "./components/ActiveAccount";
+import SimpleStorage from "./components/SimpleStorage";
+import TutorialToken from "./components/TutorialToken";
+import ComplexStorage from "./components/ComplexStorage";
 
 export default class App extends Component {
   render() {

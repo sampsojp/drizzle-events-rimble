@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { newContextComponents } from "drizzle-react-components";
 import { DrizzleContext } from "drizzle-react";
 
@@ -8,7 +8,7 @@ import {
     PublicAddress,
     Text,
     Heading
-} from 'rimble-ui'
+} from "rimble-ui";
 
 const { AccountData } = newContextComponents;
 
@@ -27,9 +27,9 @@ export default () => (
                         <AccountData
                             drizzle={drizzle}
                             drizzleState={drizzleState}
-                            accountIndex="0"
+                            accountIndex={0}
                             units="ether"
-                            precision="3"
+                            precision={3}
                             render={({ address, balance, units }) => (
                                 <Box
                                     mt={3}
