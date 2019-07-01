@@ -18,7 +18,7 @@ const Header = () => (
                 Drizzle Examples
             </Heading.h1>
             <Heading.h4>
-                Example dapp features: Drizzle + Toastify Event Notifications + Rimble UI
+                Featuring: Drizzle + Toastify Events + Rimble UI
             </Heading.h4>
         </Card>
     </Box>

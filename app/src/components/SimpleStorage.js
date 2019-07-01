@@ -39,20 +39,25 @@ export default () => (
 
             <Flex mt={2}>
               <Box>
-                <Text bold fontWeight="700">
+                <Text 
+                    bold 
+                    fontWeight="700"
+                >
                   Current stored value:
                 </Text>
               </Box>
               <Box>
-                <Text>
                   <ContractData
                     drizzle={drizzle}
                     drizzleState={drizzleState}
                     contract="SimpleStorage"
                     method="storedData"
-                    render={data => <Text color="red">&nbsp;{data}</Text>}
+                    render={data => <Text
+                                      bold
+                                      fontWeight="700"
+                                      color="red">&nbsp;{data}
+                                    </Text>}
                   />
-                </Text>
               </Box>
             </Flex>
 
