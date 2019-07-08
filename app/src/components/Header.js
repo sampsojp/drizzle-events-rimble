@@ -8,7 +8,7 @@ import {
 import logo from "../logo.png";
 
 const Header = () => (
-    <Box my={4}>
+    <Box my={3}>
         <Card
             bg="salmon"
             color="white"

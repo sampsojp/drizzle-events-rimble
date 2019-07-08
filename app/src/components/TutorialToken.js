@@ -2,10 +2,7 @@ import React from "react";
 import { newContextComponents } from "drizzle-react-components";
 import { DrizzleContext } from "drizzle-react";
 
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
-import { Card, Box, Flex, Text, Heading, Input, Button } from "rimble-ui";
+import { Card, Box, Flex, Text, Heading, Input, Button, Pill } from "rimble-ui";
 
 const { ContractData, ContractForm } = newContextComponents;
 
@@ -21,7 +18,6 @@ export default () => (
       return (
         <Box mb={20}>
           <Card bg="#fff">
-            <ToastContainer />
             <Heading.h4>TutorialToken Contract</Heading.h4>
             <Text.p>
               Here we have a form with custom, friendly labels. Also note the
@@ -77,11 +73,11 @@ export default () => (
               </Box>
             </Flex>
 
-            <Flex mt={2} flexBasis="auto" flexDirection="column">
+            <Flex mt={3} flexBasis="auto" flexDirection="column">
               <Box>
-                <Text bold fontWeight="700">
-                  Send Tokens:
-                </Text>
+                <Pill bold fontWeight="700" mb={2}>
+                  Send Tokens
+                </Pill>
               </Box>
               <Box>
                 <Text>

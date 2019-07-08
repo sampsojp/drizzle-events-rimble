@@ -2,9 +2,6 @@ import React from "react";
 import { newContextComponents } from "drizzle-react-components";
 import { DrizzleContext } from "drizzle-react";
 
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-
 import {
     Button,
     Card,
@@ -29,7 +26,6 @@ export default () => (
       return (
         <Box mb={20}>
           <Card bg="#fff">
-            <ToastContainer />
             <Heading.h4>SimpleStorage Contract</Heading.h4>
             <Text.p>
               These examples show a simple ContractData component with no

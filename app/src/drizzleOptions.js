@@ -13,11 +13,11 @@ const options = {
   contracts: [SimpleStorage, ComplexStorage, TutorialToken],
   events: {
     SimpleStorage: ["StorageSet"],
+    TutorialToken: ["Transfer"],
   },
   polls: {
-    // set polling interval to 15 seconds to reduce poll events
-    accounts: 15000,
-    //accounts: 1500,
+    // set polling interval to 30 seconds to reduce poll events
+    accounts: 30000,
   },
 };
 

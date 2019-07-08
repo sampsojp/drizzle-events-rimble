@@ -1,10 +1,9 @@
-import React, { Component, } from "react";
+import React, { Component } from "react";
 
-import {
-  Flex,
-  Box,
-  ThemeProvider
-} from "rimble-ui";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.minimal.css";
+
+import { Flex, Box, ThemeProvider } from "rimble-ui";
 
 import Header from "./components/Header";
 import ActiveAccount from "./components/ActiveAccount";
@@ -16,11 +15,7 @@ export default class App extends Component {
   render() {
     return (
       <ThemeProvider>
-        <Flex
-          px={30}
-          flexBasis="auto"
-          flexDirection="column"
-        >
+        <Flex px={30} flexBasis="auto" flexDirection="column">
           <Box>
             <Header />
           </Box>
@@ -30,6 +25,7 @@ export default class App extends Component {
           <Box>
             <SimpleStorage />
           </Box>
+          <ToastContainer />
           <Box>
             <TutorialToken />
           </Box>
