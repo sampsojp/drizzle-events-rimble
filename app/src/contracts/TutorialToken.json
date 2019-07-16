@@ -1087,12 +1087,12 @@
         }
       },
       "links": {},
-      "address": "0x3839349B5097bC01960a253Ab803E3Fe6500b3D0",
-      "transactionHash": "0x232a7c94b3647021628ce00381dbdad009532c661c5b01c16b430296325b7136"
+      "address": "0xBB75C3Ee5aee14606c6D5478a49836b0f6eFc5f0",
+      "transactionHash": "0xcaa336075227ec64e65b1151c57c104575185e255fb6745b4f619e0409aadf66"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-08T20:17:22.940Z",
+  "updatedAt": "2019-07-16T12:17:33.415Z",
   "devdoc": {
     "methods": {
       "allowance(address,address)": {

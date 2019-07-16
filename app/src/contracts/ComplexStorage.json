@@ -3883,12 +3883,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x5B34ed0333f0Fd64Ecf41cF9dC4c481246bC2689",
-      "transactionHash": "0x5c8540360e345e8b4a7d751e9b4b61981ad26b2fe484da175d88523b16d47240"
+      "address": "0x1266553224F7477396Ce983022aB1986C3eFD948",
+      "transactionHash": "0xbf6ca989fe393b2454ef96c754c14453826bd3a4ea1f020a65864519f9aa09a5"
     }
   },
   "schemaVersion": "3.0.11",
-  "updatedAt": "2019-07-08T20:17:22.968Z",
+  "updatedAt": "2019-07-16T12:17:33.433Z",
   "devdoc": {
     "methods": {}
   },
